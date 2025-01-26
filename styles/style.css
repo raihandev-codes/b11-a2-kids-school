@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", serif;
+    font-style: normal;
+}
+
+/* shared styles */
+.flex {
+    display: flex;
+}
+
+.org-color {
+    color: #FEA301;
+}
+
+.blu-color {
+    color: #01ACFD;
+}
+
+.pink-color {
+    color: #5D58EF;
+}
+
+.nav-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FEA301;
+}
+
+/* navbar style */
+.navbar {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 16px;
+    margin: 0 auto;
+    /* border-bottom: 0.5px solid rgb(254, 163, 1); */
+}
+.nav-logo{
+    align-items: center;
+}
+.nav-title {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 32px;
+}
+
+.nav-links li>a {
+    text-decoration: none;
+}
+
+#nav-facilities {
+    color: #05D4DF;
+}
