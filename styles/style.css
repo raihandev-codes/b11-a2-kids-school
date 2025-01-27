@@ -26,6 +26,7 @@
 .pink-color {
     color: #5D58EF;
 }
+
 .text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -39,9 +40,11 @@
     padding: 10px 16px;
     margin: 0 auto;
 }
-.nav-logo{
+
+.nav-logo {
     align-items: center;
 }
+
 .nav-title {
     color: rgb(17, 17, 17);
     font-size: 2rem;
@@ -71,20 +74,67 @@
     font-size: 20px;
     font-weight: 600;
     background-color: #FEA301;
+    cursor: pointer;
 }
+
+/* banner styles */
+.banner-section {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 18px;
+    gap: 24px;
+}
+.banner-content {
+    max-width: 40rem;
+    height: 20rem;
+    
+}
+.banner-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #111111;
+}
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.banner-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: #111111;
+    cursor: pointer;
+}
+
+
+
 @media screen and (min-width:577px) {
-    .menu-bar{
+    .menu-bar {
         display: none;
     }
 }
+
 @media only screen and (max-width: 576px) {
     .nav-links,
-    .nav-btn{
+    .nav-btn {
         display: none;
     }
-    .navbar{
+    .navbar {
         padding: 8px;
         margin: 10px;
         border-bottom: 0.5px solid rgb(254, 163, 1);
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        padding: 0;
+        text-align: center;        
     }
 }
