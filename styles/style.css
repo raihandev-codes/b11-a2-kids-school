@@ -26,26 +26,18 @@
 .pink-color {
     color: #5D58EF;
 }
-
-.nav-btn {
-    padding: 10px 30px;
-    border: none;
-    border-radius: 12px;
-    width: 197px;
-    height: 50px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #FEA301;
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
+
 
 /* navbar style */
 .navbar {
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 16px;
     margin: 0 auto;
-    /* border-bottom: 0.5px solid rgb(254, 163, 1); */
 }
 .nav-logo{
     align-items: center;
@@ -68,4 +60,31 @@
 
 #nav-facilities {
     color: #05D4DF;
+}
+.nav-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FEA301;
+}
+@media screen and (min-width:577px) {
+    .menu-bar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .nav-links,
+    .nav-btn{
+        display: none;
+    }
+    .navbar{
+        padding: 8px;
+        margin: 10px;
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+    }
 }
