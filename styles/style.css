@@ -14,19 +14,24 @@
 .flex {
     display: flex;
 }
+
 .org-color {
     color: #FEA301;
 }
+
 .blu-color {
     color: #01ACFD;
 }
+
 .pink-color {
     color: #5D58EF;
 }
+
 .text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
+
 /* navbar style */
 .navbar {
     justify-content: space-around;
@@ -167,27 +172,32 @@ marquee {
     font-weight: 700;
     margin-top: 55px;
 }
+
 .read-more a {
     text-decoration: none;
 }
+
 .bg-blu-gredient {
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
+
 .bg-org-gredient {
     border: 0.94px solid rgb(255, 244, 220);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
+
 .bg-pnk-gredient {
     border: 0.94px solid rgb(242, 232, 255);
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
+
 .btn-container {
     margin-top: 80px;
     margin-bottom: 60px;
@@ -195,6 +205,7 @@ marquee {
     display: flex;
     gap: 20px;
 }
+
 .circle-button {
     width: 60px;
     height: 60px;
@@ -207,30 +218,37 @@ marquee {
     font-size: 24px;
     cursor: pointer;
 }
+
 /* Our story styles */
 .story-section {
     width: 0 auto;
     height: 1018.02px;
-    background-image: url(../assets/bg.png), linear-gradient(rgba(242, 241, 238, 0.81), bisque );
+    background-image: url(../assets/bg.png), linear-gradient(rgba(242, 241, 238, 0.81), bisque);
 }
-.div-card{
+
+.div-card {
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
+
 .story-card-1 {
     width: 500px;
     height: 600px;
     border-radius: 16px;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
+
 .story-card-1 img {
     border-radius: 16px 16px 0 0;
     width: 100%;
 }
-.card-content{
+
+.card-content {
     padding: 20px;
 }
+
 .date {
     color: #FFFFFF;
     padding: 8px;
@@ -243,21 +261,26 @@ marquee {
     bottom: 235px;
     left: 30px;
 }
-.grid-cards{
+
+.grid-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
 .story-card {
     width: 17rem;
     height: 290px;
     border-radius: 16px;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
+
 .story-card img {
     border-radius: 16px 16px 0 0;
     width: 100%;
 }
+
 .dates {
     padding: 3px;
     color: #FFFFFF;
@@ -270,12 +293,56 @@ marquee {
     bottom: 130px;
     left: 30px;
 }
-#pink-dates{
+
+#pink-dates {
     background-color: #5D58EF;
 }
-.story-btn{
+
+.story-btn {
     display: block;
     margin: 80px auto;
+}
+
+/* footer styles */
+footer {
+    background-color: #01ACFD;
+    width: auto;
+    height: 519px;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 150px 80px 175px 80px;
+
+}
+
+.footer-logo {
+    align-items: center;
+}
+
+.footer-header {
+    color: rgb(244, 238, 238);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-links ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(238, 225, 255);
+    cursor: pointer;
+
 }
 
 @media screen and (min-width:577px) {
@@ -288,7 +355,7 @@ marquee {
 @media only screen and (max-width: 576px) {
 
     .nav-links,
-    .nav-btn, 
+    .nav-btn,
     .story-card-1 {
         display: none;
     }
@@ -321,11 +388,18 @@ marquee {
     .btn-container {
         margin-top: 10px;
     }
-    .story-section{
+
+    .story-section {
         margin-top: 950px;
         padding: 20px;
     }
-    .grid-cards{
+
+    .grid-cards {
         grid-template-columns: repeat(2, 1fr);
     }
+    footer{
+        flex-direction: column;
+        height: 642px;
+    }
+    
 }
